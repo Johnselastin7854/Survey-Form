@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  color: #f3f3f3;
+}
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #1b1b32;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/201910/SE-2-Winds-of-Change-Oct28-6_1.jpeg?grP2P9O5ETJQUYFRCS_hUxcSGrNHzoin&size=770:433);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+#description {
+  font-style: italic;
+  font-size: 15px;
+}
+.clue {
+  margin-left: 0.25rem;
+}
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 1.5rem;
+}
+h1,
+p {
+  margin-top: 0px;
+  margin-bottom: 0.5rem;
+}
+header {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#survey-form {
+  background: rgba(27, 27, 50, 0.9);
+  max-width: 654px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  margin: 0 auto;
+  box-shadow: 0px -1px 10px 5px purple;
+  z-index: 2;
+}
+#name,
+#email,
+#number,
+#dropdown,
+#liked,
+#comments {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 5px 10px;
+  color: #000000;
+  background-color: #ffff;
+  border: 1px solid #eeee;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.text-area {
+  min-height: 100px;
+  width: 100%;
+  padding: 0.625rem;
+}
+label {
+  line-height: 40px;
+}
+.sumbit-btn {
+  border: none;
+  display: block;
+  width: 100%;
+  height: 40px;
+  color: white;
+  background-color: rgb(58, 179, 58);
+  font-weight: bold;
+  font-size: 15px;
+}
